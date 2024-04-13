@@ -13,6 +13,6 @@ planning_uviz 用于规划算法的可视化。目录中主要内容如下：
 
 planning_uviz 整体数据输入来自于结构体uviz_data_t。即数据由主进程copy到uviz_data_t，然后在由planning_uviz模块进行绘制。
 planning_uviz目前是作为一个线程显示的，所以能够拿到planning的全部数据，具体显示效果，可以根据实际的需求进行调整。下面是目前显示的内容：
-
-https://github.com/wangxinchd/planning_analysis_tools/assets/49182176/9f7a2912-8f6c-4774-880e-def5524fc271
+[![planning_uviz demo]()](
+https://github.com/wangxinchd/planning_analysis_tools/assets/49182176/47d6f113-c32e-4038-9223-07005eafa90e)
 视频中，绿色表示主车，黑色表示障碍物。显示时主车始终放在视图的中心，具体也可以调整，读者可以自行实现。
